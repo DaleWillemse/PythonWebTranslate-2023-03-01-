@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import translators.server as tss
 
-with open("www_classcentral_default.html", "r", encoding="utf-8") as f:
+with open("addHtmlPath", "r", encoding="utf-8") as f:
     html = f.read()
 
 soup = BeautifulSoup(html, "html.parser")
